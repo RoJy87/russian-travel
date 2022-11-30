@@ -1,2 +1,11 @@
 .lead__image {
+  width: 100%;
+}
+
+.lead__image:nth-child(2) {
+  max-width: 95%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -85%);
 }

@@ -1,0 +1,9 @@
+.link {
+  display: inline-block;
+  transition: .4s ease-in-out .1s;
+}
+
+.link:hover {
+  opacity: 0.7;
+  transform: scale(1.05) translateY(-2px);
+}

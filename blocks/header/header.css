@@ -1,2 +1,15 @@
 .header {
+  max-width: 92.5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding-top: 28px;
+}
+
+@media (max-width: 767px) {
+  .header {
+    max-width: 90%;
+    padding-top: 16px;
+  }
 }

@@ -1,0 +1,12 @@
+.place__paragraph-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+@media (min-width: 767px) {
+  .place__paragraph-container {
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+  }
+}

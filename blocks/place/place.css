@@ -1,2 +1,14 @@
 .place {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+@media (min-width: 767px) {
+  .place {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px 40px;
+  }
 }

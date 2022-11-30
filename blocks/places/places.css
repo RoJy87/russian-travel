@@ -1,2 +1,13 @@
 .places {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+@media (min-width: 767px) {
+  .places {
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+  }
 }

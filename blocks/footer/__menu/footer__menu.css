@@ -1,2 +1,8 @@
-.footer__menu {
+@media (max-width: 767px) {
+  .footer__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+  }
 }
