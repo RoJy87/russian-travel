@@ -2,7 +2,7 @@
   padding-bottom: 64px;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   .lead {
     padding-bottom: 88px;
   }
