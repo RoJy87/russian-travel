@@ -1,31 +1,26 @@
 .cover {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  justify-content: center;
-  max-width: 1184px;
-  min-height: 740px;
-  position: relative;
-  margin: 0 auto 92px;
-  background: url("../../images/cover__trains.jpg") no-repeat 0 0 / cover;
-}
+  margin: 66px auto 64px;
+  background: url("../../images/cover__trains.jpg") no-repeat center / cover;
 
-@media (min-width: 767px) and (max-width: 1024px) {
-  .cover {
-    min-height: 640px;
-  }
-}
+ }
 
-@media (min-width: 421px) and (max-width: 767px) {
+ @media (min-width: 768px) {
   .cover {
-    min-height: 480px;
-    margin-bottom: 88px;
-  }
-}
+    margin: 90px auto 88px;
 
-@media (max-width: 420px) {
+   }
+ }
+
+ @media (min-width: 1024px) {
   .cover {
-    min-height: 200px;
-    margin-bottom: 64px;
-  }
-}
+    margin: 137px auto 47px;
+
+   }
+ }
+
+ @media (min-width: 1280px) {
+  .cover {
+    margin: 92px auto;
+
+   }
+ }

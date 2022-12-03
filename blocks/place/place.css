@@ -8,7 +8,7 @@
 @media (min-width: 767px) {
   .place {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 48px 40px;
+    grid-template-columns: 0.98fr 1.02fr;
+    gap: 48px 28px;
   }
 }

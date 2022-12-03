@@ -6,11 +6,8 @@
   font-weight: 400;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 1024px) {
   .place__url-heading {
-    margin: 0 0 12px;
-    font-size: 12px;
-    line-height: 16px;
-    font-weight: 400;
+    line-height: 1.7;
   }
 }

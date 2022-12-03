@@ -1,4 +1,5 @@
 .link {
+  text-decoration: none;
   display: inline-block;
   transition: .4s ease-in-out .1s;
 }

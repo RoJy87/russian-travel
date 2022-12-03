@@ -4,14 +4,6 @@
   line-height: 1.22;
   font-weight: 400;
   color: #fff;
+  border-bottom: 1px solid; /* text-decoration: underline; не совпадает с макетом*/
 }
 
-@media (min-width: 767px) {
-  .place__link {
-    margin: 0;
-    font-size: 18px;
-    line-height: 22px;
-    font-weight: 400;
-    color: #fff;
-  }
-}

@@ -1,10 +1,10 @@
-/* fonts */
-
-@import url("../fonts/inter.css");
-
 /* normalize */
 
 @import url("../vendor/normalize.css");
+
+/* fonts */
+
+@import url("../fonts/inter.css");
 
 /* блок page */
 
@@ -13,11 +13,11 @@
 /* блок container */
 
 @import url("../blocks/container/container.css");
-@import url("../blocks/container/_width/container_width_small.css");
 
 /* блок link */
 
 @import url("../blocks/link/link.css");
+@import url("../blocks/link/_type/link_type_active.css");
 
 /* блок list-style */
 
@@ -32,6 +32,7 @@
 
 /* блок main // lead */
 
+@import url("../blocks/lead/lead.css");
 @import url("../blocks/lead/__title/lead__title.css");
 @import url("../blocks/lead/__subtitle/lead__subtitle.css");
 @import url("../blocks/lead/__images/lead__images.css");
@@ -40,16 +41,18 @@
 
 /* блок intro */
 
+@import url("../blocks/container/container.css");
 @import url("../blocks/intro/intro.css");
 @import url("../blocks/intro/__title/intro__title.css");
 @import url("../blocks/intro/__text/intro__text.css");
 @import url("../blocks/intro/__item/intro__item.css");
 
-/* блок photo-grid */
+/* блок photo-flex */
 
-@import url("../blocks/photo-grid/photo-grid.css");
-@import url("../blocks/photo-grid/__list/photo-grid__list.css");
-@import url("../blocks/photo-grid/__item/photo-grid__item.css");
+@import url("../blocks/photo-flex/photo-flex.css");
+@import url("../blocks/photo-flex/__list/photo-flex__list.css");
+@import url("../blocks/photo-flex/__items/photo-flex__items.css");
+@import url("../blocks/photo-flex/__item/photo-flex__item.css");
 
 /* блок places */
 

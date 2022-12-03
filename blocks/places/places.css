@@ -6,8 +6,21 @@
 
 @media (min-width: 767px) {
   .places {
-    display: flex;
-    flex-direction: column;
-    row-gap: 80px;
+    max-width: 720px;
+    row-gap: 73px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1023px) {
+  .places {
+    max-width: 928px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .places {
+    max-width: 984px;
+    row-gap: 75px;
   }
 }

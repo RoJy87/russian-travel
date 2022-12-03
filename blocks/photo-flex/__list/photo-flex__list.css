@@ -1,0 +1,13 @@
+.photo-flex__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+@media (min-width: 768px) {
+  .photo-flex__list {
+    gap: 16px;
+  }
+}
