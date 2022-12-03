@@ -2,7 +2,7 @@
   max-width: 360px;
   margin: 0 auto 33px;
   padding: 0 16px;
-  font-size: calc( (100vw - 320px)/(768 - 320) * (18 - 14) + 14px);;
+  font-size: calc( (100vw - 320px)/(768 - 320) * (18 - 14) + 14px);
   line-height: 1.14;
   font-weight: 400;
   text-align: center;
