@@ -1,6 +1,7 @@
 .photo-flex {
   margin: 0 auto;
   padding: 0 16px 64px;
+  max-width: 1184px;
 }
 
 @media (min-width: 768px) {

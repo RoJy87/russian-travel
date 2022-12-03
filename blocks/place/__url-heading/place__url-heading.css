@@ -6,7 +6,7 @@
   font-weight: 400;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .place__url-heading {
     line-height: 1.7;
   }

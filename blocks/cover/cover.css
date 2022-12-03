@@ -1,6 +1,7 @@
 .cover {
   margin: 66px auto 64px;
   background: url("../../images/cover__trains.jpg") no-repeat center / cover;
+  max-width: 1184px;
 
  }
 
