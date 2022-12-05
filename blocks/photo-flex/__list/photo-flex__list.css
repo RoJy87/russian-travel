@@ -11,15 +11,3 @@
     gap: 16px;
   }
 }
-
-@media (min-width: 1024px) {
-  .photo-flex__list {
-    gap: 14px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .photo-flex__list {
-    gap: 16px;
-  }
-}
