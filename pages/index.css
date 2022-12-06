@@ -17,7 +17,6 @@
 /* блок link */
 
 @import url("../blocks/link/link.css");
-@import url("../blocks/link/_active/link_active.css");
 
 /* блок list-style */
 
@@ -29,6 +28,7 @@
 @import url("../blocks/header/__logo/header__logo.css");
 @import url("../blocks/header/__lang-links/header__lang-links.css");
 @import url("../blocks/header/__lang-link/header__lang-link.css");
+@import url("../blocks/header/__lang-link/active/header__lang-link_active.css");
 
 /* блок main // lead */
 
